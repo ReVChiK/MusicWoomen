@@ -770,3 +770,22 @@ $f-g_color: #07a953;
     }
 }
 
+.form-result{
+    width: 100%;
+
+    .form-result__content{
+        max-width: $container_width;
+        margin: 0 auto;
+
+        .form-result-container{
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+
+            .form-result-title{
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+    }
+}
+
