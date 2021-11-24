@@ -27,6 +27,8 @@
 
         mail("$adminemail", "$date $time Сообщение от $name", "$message");
         
+        echo "<center><p>Форма успешно отправлена!</p></center><br>";
+        echo "<center><a href='./index.html'>Вернуться на главную!</a></center>";
     }
 
 ?>
